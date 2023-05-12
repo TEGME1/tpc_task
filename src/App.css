@@ -1,5 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mid {
+    display: flex;
+}
+
+.vertical-button {
+    height: 60px;
+}
+
+.horizontal-button {
+    width: 60px;
+}
+
+.vertical-button, .horizontal-button {
+    background-color: #b8eded;
+}
+
+.movable {
+    background-color: #b5dc36;
+}
 
 button {
+    padding: 0;
     margin: 0;
-    vertical-align: top;
+    display: block;
 }
